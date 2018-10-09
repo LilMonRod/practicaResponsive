@@ -1,0 +1,28 @@
+$size1: 75vw;
+#container {
+    width: $size1;
+    height: $size1*0.20*2 + $size1*0.015;
+    margin: 0 auto;
+}
+.content{
+    width: $size1*0.30;
+    height: $size1*0.20;
+    background-color: gray;
+    border: solid $size1*0.003 black;
+    border-radius: $size1*0.03;
+    float: left;
+    margin-right: $size1*0.004;
+    margin-bottom: $size1*0.004;
+    div:nth-child(1n+3){
+        margin-bottom: 0;
+    }
+    div:nth-child(3n){
+        margin-right: 0;
+    }
+}
+div>div {
+    text-align: center;
+}
+div>span{
+    font-size: $size1*0.04;
+}
