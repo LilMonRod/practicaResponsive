@@ -1,0 +1,54 @@
+@media (min-width: $breakpoint-lg){
+    /*****************
+    ******header******
+    ******************/
+    #menu {
+        visibility: visible;
+    }
+    #title-nav {
+        visibility: hidden;
+    }
+    #menu-nav {
+        visibility: hidden;
+    }
+    .width-Navigation {
+        width: 100%;
+        height: 9vw;
+    }
+    #menu>li {
+        list-style: none;
+        display: inline-block;
+        color: #fff;
+    }
+    li {
+        font-size: 1.2em;
+        margin-top: 3vw;
+    }
+    li + li {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    /***** Files ***/
+    #files>h3 {
+        color: $texto-files;
+        padding-left: 8.1vw;
+        font-size: 1.8em;
+        margin-top: 0vw;
+        padding-top: 4vw;
+    }
+    .btn-go {
+        border: none;
+        color: #f2eef7;
+    }
+    .btn-go2-width {
+        height: 28.9vw;
+        font-size: 2.8em;
+    }
+    .box {
+        float: left;
+    }
+    .box-width {
+        width: 33.33%;
+    }
+}

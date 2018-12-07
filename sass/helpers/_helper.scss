@@ -1,0 +1,14 @@
+
+/****************
+      Helpers
+*****************/
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* display None */
+.none {
+    @include none;
+}

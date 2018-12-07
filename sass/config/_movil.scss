@@ -1,0 +1,131 @@
+#wraper {
+    width: 100%;
+}
+#menu {
+    display: none;
+}
+#title-nav {
+    display: inline;
+}
+#menu-nav {
+    display: inline;
+}
+/***** Header Nav *****/
+.background-Navigation {
+    background-color: $background-menu-header-nav;
+}
+.background-Menu {
+    background-color: $background-menu-header-img;
+}
+.width-Navigation {
+    width: 90%;
+    height: 8vw;
+}
+.width-Menu {
+    width: 10%;
+    height: 8vw;
+}
+.img-menu {
+    max-width: 5vw;
+    padding: 3vw;
+}
+.box{
+    float: left;
+}
+.width-Navigation>h1 {
+    font-size: 2.0281em;
+    color: $texto-menu-movil;
+    padding-left: 3vw;
+}
+
+/***** Banner *****/ 
+.banner-width {
+    max-width: 100%;
+    height: 54.68vw;
+}
+
+#banner>h2:first-child {
+    padding-top: 28vw;
+}
+#banner>h2{
+    font-size: 2.8em;
+    color: $header-banner;
+    margin: 0;
+    padding-left: 8.1vw;
+}
+#banner>h3{
+    font-size: 1.8em;
+    color: $subtitulo-banner;
+    padding-left: 8.1vw;
+    margin-top: 3vw;
+}
+
+#banner>h3>span {
+    color: $header-banner;
+    padding-left: 16.1vw;
+}
+
+/***** ***/
+#files {
+    background-color: $background-files
+}
+.files-width {
+    width: 84%;
+    height: 16vw;
+}
+
+#files>h3 {
+    color: $texto-files;
+    padding-left: 8.1vw;
+    font-size: 1.8em;
+    margin-top: 6vw;
+}
+.btn-go {
+    border: none;
+    color: #f2eef7;
+}
+.btn-go-width {
+    width: 16%;
+    height: 16vw;
+}
+
+.btn-go-background {
+    background-color: $background-go-files;
+    border-top: 2px solid #f060e4;
+}
+.btn-go2-width {
+    width: 100%;
+    height: 80vw;
+    font-size: 2.8em;
+}
+.btn-go2-background{
+    background-color: $background-go-galery;
+    border-top: 2px solid #9a1ade;
+}
+.three-columns-width {
+    max-width: 100%;
+}
+
+/****** last seccion ****/
+.width-last-seccion {
+    width: 100%;
+    height: 80vw;
+}
+
+.title-last-seccion {
+    color: $header-last-seccion;
+    font-size: 2.8em;
+    margin: 0;
+    padding-top: 6vw;
+    padding-left: 8.1vw;
+}
+.background-last-seccion {
+    background-color: $background-last-seccion;
+}
+.two-columns>p {
+    font-size: 2.5em;
+    margin: 0;
+    padding-left: 8.1vw;
+    padding-right: 9.1vw;
+    line-height: 40pt;
+}
